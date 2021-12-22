@@ -1,0 +1,15 @@
+uuid: 83b401b6-dae9-4e5c-8fc4-d5f546b77c8e
+langcode: nl
+status: true
+dependencies: {  }
+id: visitor
+label: Visitor
+weight: -8
+is_admin: null
+permissions:
+  - 'create recensie content'
+  - 'create vacature content'
+  - 'delete own recensie content'
+  - 'delete own vacature content'
+  - 'edit own recensie content'
+  - 'edit own vacature content'

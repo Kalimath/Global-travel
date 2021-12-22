@@ -1,0 +1,8 @@
+uuid: 176a0951-0aa5-4f84-9e3d-4edddc943eb9
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Geografische regio'
+vid: geografische_regio
+description: 'Plaatsen om naar te reizen'
+weight: 0

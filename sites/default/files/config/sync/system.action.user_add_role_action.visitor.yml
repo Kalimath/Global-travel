@@ -1,0 +1,14 @@
+uuid: af218ba7-791d-437f-adab-ef086ada8f4a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.visitor
+  module:
+    - user
+id: user_add_role_action.visitor
+label: 'De rol Visitor toewijzen aan de geselecteerde gebruiker(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: visitor

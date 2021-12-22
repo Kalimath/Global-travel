@@ -1,0 +1,35 @@
+uuid: ce839d65-2e19-41fe-971a-3712ba08ec5e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vacature.body
+    - field.field.node.vacature.field_geografische_regio
+    - field.field.node.vacature.field_t
+    - node.type.vacature
+  module:
+    - text
+    - user
+id: node.vacature.teaser
+targetEntityType: node
+bundle: vacature
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_geografische_regio: true
+  field_t: true
+  langcode: true

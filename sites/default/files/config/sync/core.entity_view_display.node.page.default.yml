@@ -1,0 +1,117 @@
+uuid: 8fdc9140-1215-4339-b5f4-097f401ab67c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - node.type.page
+    - system.menu.snelle-links
+  module:
+    - layout_builder
+    - system
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          column_widths: 75-25
+          context_mapping: {  }
+        components:
+          d4a80114-dfb5-4b5b-9440-8468e23cc919:
+            uuid: d4a80114-dfb5-4b5b-9440-8468e23cc919
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:page:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+          d132daa9-d890-4831-9112-988280f767f2:
+            uuid: d132daa9-d890-4831-9112-988280f767f2
+            region: second
+            configuration:
+              id: 'field_block:node:page:created'
+              label: 'Aangemaakt op'
+              provider: layout_builder
+              label_display: visible
+              formatter:
+                label: above
+                type: timestamp
+                settings:
+                  date_format: medium
+                  custom_date_format: ''
+                  timezone: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          dab7ec5c-424c-4ed8-8979-1b536e626baa:
+            uuid: dab7ec5c-424c-4ed8-8979-1b536e626baa
+            region: second
+            configuration:
+              id: 'field_block:node:page:uid'
+              label: 'Geschreven door'
+              provider: layout_builder
+              label_display: visible
+              formatter:
+                label: above
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+          fa2dca24-86b0-48f7-ae7e-88b53839f83d:
+            uuid: fa2dca24-86b0-48f7-ae7e-88b53839f83d
+            region: second
+            configuration:
+              id: 'system_menu_block:snelle-links'
+              label: 'Snelle links'
+              provider: system
+              label_display: visible
+              level: 1
+              depth: 0
+              expand_all_items: false
+              context_mapping: {  }
+            additional: {  }
+            weight: 2
+        third_party_settings: {  }
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 101
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  layout_builder__layout: true

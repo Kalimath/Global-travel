@@ -1,0 +1,13 @@
+uuid: 56f41a3b-a62b-499a-b454-a291ee2a944b
+langcode: nl
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: lfyE_snmvfg_EQ3VDyhUtGAXgmqtEiqa46I3bTMg8DU
+id: comment_save_action
+label: 'Reactie opslaan'
+type: comment
+plugin: 'entity:save_action:comment'
+configuration: {  }

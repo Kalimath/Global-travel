@@ -1,0 +1,22 @@
+uuid: d63c6fa8-5179-4022-915f-8b50177da3de
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: eenvoudige_pagina
+label: 'eenvoudige pagina'
+type: 'canonical_entities:node'
+pattern: 'pagina/[node:title]'
+selection_criteria:
+  8d400419-98e9-4c49-b1f1-9f36276a2867:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8d400419-98e9-4c49-b1f1-9f36276a2867
+selection_logic: and
+weight: -5
+relationships: {  }

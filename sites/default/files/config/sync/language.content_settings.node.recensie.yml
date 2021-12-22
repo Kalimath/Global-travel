@@ -1,0 +1,11 @@
+uuid: 24b50f63-f625-4196-8426-2926365bacc1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.recensie
+id: node.recensie
+target_entity_type_id: node
+target_bundle: recensie
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,88 @@
+uuid: 35c9386c-416a-44b1-b953-55bb4290d931
+langcode: nl
+status: true
+dependencies:
+  module:
+    - views_ui
+_core:
+  default_config_hash: SQMiFkCe2dvWXIB-mlAPqsM6ofosgIHWWGLF5N201Jw
+id: views-ui
+label: 'De bewerkpagina bekijken'
+module: views_ui
+routes:
+  -
+    route_name: entity.view.edit_form
+  -
+    route_name: entity.view.edit_display_form
+tips:
+  views-main:
+    id: views-main
+    plugin: text
+    label: 'Overzichtinstellingen beheren'
+    body: 'De configuratie bekijken of bewerken.'
+    weight: 1
+  views-ui-displays:
+    id: views-ui-displays
+    plugin: text
+    label: 'Wordt in dit overzicht weergegeven'
+    body: 'Een weergave is een manier om de resultaten te tonen bijvoorbeeld als een pagina of een blok. Een overzicht kan meerdere weergaven bevatten die hier worden getoond. De actieve weergave is gemarkeerd.'
+    weight: 2
+    selector: '#views-display-top'
+  views-ui-view-admin:
+    id: views-ui-view-admin
+    plugin: text
+    label: Overzichtbeheer
+    body: 'Voer beheertaken uit, inclusief het toevoegen van een beschrijving en het aanmaken van een duplicaat. Klik op de keuzelijst om de beschikbare opties te zien.'
+    weight: 3
+    position: right
+    selector: '#views-display-extra-actions'
+  views-ui-format:
+    id: views-ui-format
+    plugin: text
+    label: Weergaveformaat
+    body: 'Kies hoe resultaten uitgevoerd worden. Kies bijvoorbeeld <em>Inhoud</em> om elk item volledig uit te voeren volgens de daarvoor ingestelde weergave. Of kies <em>Velden</em>, om specifieke velden voor elk resultaat weer te geven. Aanvullende formaten kunnen toegevoegd worden door modules te installeren die de basisfunctionaliteit van Drupal <em>uitbreiden</em>.'
+    weight: 4
+    selector: .views-ui-display-tab-bucket.format
+  views-ui-fields:
+    id: views-ui-fields
+    plugin: text
+    label: Velden
+    body: 'Als dit overzicht velden gebruikt, worden ze hier weergegeven. U kunt op een veld klikken om het te configureren.'
+    weight: 5
+    selector: .views-ui-display-tab-bucket.field
+  views-ui-filter:
+    id: views-ui-filter
+    plugin: text
+    label: 'Filter het overzicht'
+    body: 'Voeg filters toe om het aantal getoonde resultaten te beperken. Bijvoorbeeld een filter voor <em>Gepubliceerd</em> en selecteer vervolgens <em>Ja</em> om alleen <em>gepubliceerde</em> content te tonen.'
+    weight: 6
+    selector: .views-ui-display-tab-bucket.filter
+  views-ui-filter-operations:
+    id: views-ui-filter-operations
+    plugin: text
+    label: Filteracties
+    body: 'Filters toevoegen, herschikken of verwijderen.'
+    weight: 7
+    selector: '.views-ui-display-tab-bucket.filter .dropbutton-widget'
+  views-ui-sorts:
+    id: views-ui-sorts
+    plugin: text
+    label: Sorteercriteria
+    body: 'Beheer de volgorde waarop de resultaten getoond moeten worden. Klik op een actieve sorteer-regel om deze in te stellen.'
+    weight: 8
+    selector: .views-ui-display-tab-bucket.sort
+  views-ui-sorts-operations:
+    id: views-ui-sorts-operations
+    plugin: text
+    label: 'Acties sorteren'
+    body: 'Sorteerregels toevoegen, herschikken of verwijderen.'
+    weight: 9
+    selector: '.views-ui-display-tab-bucket.sort .dropbutton-widget'
+  views-ui-preview:
+    id: views-ui-preview
+    plugin: text
+    label: Voorbeeldweergave
+    body: 'Een voorbeeld van de overzichts-output weergeven.'
+    weight: 10
+    position: right
+    selector: '#preview-submit'

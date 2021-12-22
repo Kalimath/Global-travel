@@ -1,0 +1,22 @@
+uuid: e7093df0-4ae7-4a1b-8f2d-459632268f3c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.vacature
+id: node.vacature.promote
+field_name: promote
+entity_type: node
+bundle: vacature
+label: 'Aangeraden op de voorpagina'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

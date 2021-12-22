@@ -1,0 +1,36 @@
+uuid: dd90e29b-39d5-4d60-b6f3-ebd43b4ef94e
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_score
+field_name: field_score
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: ★☆☆☆☆
+    -
+      value: '2'
+      label: ★★☆☆☆
+    -
+      value: '3'
+      label: ★★★☆☆
+    -
+      value: '4'
+      label: ★★★★☆
+    -
+      value: '5'
+      label: ★★★★★
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

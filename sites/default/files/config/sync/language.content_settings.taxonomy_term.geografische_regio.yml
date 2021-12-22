@@ -1,0 +1,11 @@
+uuid: 95aef64c-9169-48f1-808e-53a2d36b3afe
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.geografische_regio
+id: taxonomy_term.geografische_regio
+target_entity_type_id: taxonomy_term
+target_bundle: geografische_regio
+default_langcode: site_default
+language_alterable: false

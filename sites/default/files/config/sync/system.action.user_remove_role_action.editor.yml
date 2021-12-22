@@ -1,0 +1,14 @@
+uuid: 7d7056fb-2db6-4061-b5f2-8c1cdc8be5c0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.editor
+  module:
+    - user
+id: user_remove_role_action.editor
+label: 'De rol Editor verwijderen van de geselecteerde gebruikers(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor

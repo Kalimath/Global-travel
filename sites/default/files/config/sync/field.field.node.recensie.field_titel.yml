@@ -1,0 +1,21 @@
+uuid: 0147e470-9900-4551-94c4-74cee24c1173
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titel
+    - node.type.recensie
+  module:
+    - text
+id: node.recensie.field_titel
+field_name: field_titel
+entity_type: node
+bundle: recensie
+label: Titel
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

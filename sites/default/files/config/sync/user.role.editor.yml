@@ -1,0 +1,18 @@
+uuid: b53f2103-4f0c-47f8-b314-624877c703bf
+langcode: nl
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: -7
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete any article content'
+  - 'delete any recensie content'
+  - 'delete any vacature content'
+  - 'delete own article content'
+  - 'edit any article content'
+  - 'edit any recensie content'
+  - 'edit any vacature content'
+  - 'edit own article content'

@@ -1,0 +1,18 @@
+uuid: e1f983f5-24f8-4392-a089-8c5b62fc8bd1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.vacature
+id: node.vacature.title
+field_name: title
+entity_type: node
+bundle: vacature
+label: 'Vacature titel'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

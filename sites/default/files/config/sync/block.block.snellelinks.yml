@@ -1,0 +1,29 @@
+uuid: bcfee61b-475f-4be6-90c0-e398844f38f6
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.snelle-links
+  module:
+    - system
+  theme:
+    - bartik
+id: snellelinks
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'system_menu_block:snelle-links'
+settings:
+  id: 'system_menu_block:snelle-links'
+  label: 'Snelle links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n"
+    negate: false

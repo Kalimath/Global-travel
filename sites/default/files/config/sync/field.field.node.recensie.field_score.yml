@@ -1,0 +1,21 @@
+uuid: 5e8eaff9-50b9-4e55-8e0f-1e20d5d5d2e0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_score
+    - node.type.recensie
+  module:
+    - options
+id: node.recensie.field_score
+field_name: field_score
+entity_type: node
+bundle: recensie
+label: Score
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

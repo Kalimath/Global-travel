@@ -1,0 +1,12 @@
+uuid: 1ae24220-658b-4c34-a0ca-2c0865211e4c
+langcode: nl
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 6GCOQ-jP2RbdbHA5YWQ6bT8CfGbqrBYKOSC_XY4E3ZM
+id: node.search_result
+label: 'Zoekresultaat uitlichten-invoer'
+targetEntityType: node
+cache: true

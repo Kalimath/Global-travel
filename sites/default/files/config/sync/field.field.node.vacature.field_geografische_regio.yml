@@ -1,0 +1,33 @@
+uuid: aea4b874-c1b6-42c2-96ae-66f2216e4a4b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geografische_regio
+    - node.type.vacature
+    - taxonomy.vocabulary.geografische_regio
+  content:
+    - 'taxonomy_term:geografische_regio:938d639d-66ba-4c56-a08e-948b2c01b401'
+id: node.vacature.field_geografische_regio
+field_name: field_geografische_regio
+entity_type: node
+bundle: vacature
+label: 'Geografische regio'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 938d639d-66ba-4c56-a08e-948b2c01b401
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      geografische_regio: geografische_regio
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

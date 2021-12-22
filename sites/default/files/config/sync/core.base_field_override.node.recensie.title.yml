@@ -1,0 +1,18 @@
+uuid: a8e074e7-b97f-4d77-b1d8-0702fe5e629b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.recensie
+id: node.recensie.title
+field_name: title
+entity_type: node
+bundle: recensie
+label: 'Recensie titel'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

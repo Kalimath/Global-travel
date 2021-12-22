@@ -1,0 +1,21 @@
+uuid: 27f48a0c-7c6b-45b0-af70-8f1c4fb5d7dd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_t
+    - node.type.vacature
+  module:
+    - options
+id: node.vacature.field_t
+field_name: field_t
+entity_type: node
+bundle: vacature
+label: 'Type contract'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,18 @@
+uuid: 1630c978-f927-4b07-9cc0-cc80aeaaf275
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Vacature
+type: vacature
+description: 'Maak een reis vacature aan voor op de vacature sectie van de website.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

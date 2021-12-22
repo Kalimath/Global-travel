@@ -1,0 +1,8 @@
+uuid: 5989ec5c-a055-4e42-a7a3-ccfcc749d030
+langcode: nl
+status: true
+dependencies: {  }
+id: snelle-links
+label: 'Snelle links'
+description: 'Super fast'
+locked: false

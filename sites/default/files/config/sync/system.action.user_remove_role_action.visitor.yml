@@ -1,0 +1,14 @@
+uuid: a601cd8c-7b72-4d89-b1ec-8252de660aad
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.visitor
+  module:
+    - user
+id: user_remove_role_action.visitor
+label: 'De rol Visitor verwijderen van de geselecteerde gebruikers(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: visitor

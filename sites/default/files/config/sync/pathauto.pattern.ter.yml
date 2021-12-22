@@ -1,0 +1,14 @@
+uuid: 6657c9c6-c5ff-4c01-adfb-35226237a557
+langcode: nl
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: ter
+label: 'Term names'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'term/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

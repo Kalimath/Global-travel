@@ -1,0 +1,23 @@
+uuid: afd0623e-7f2d-4f84-97cc-e8b2eef6006a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recensie
+  module:
+    - text
+id: node.recensie.body
+field_name: body
+entity_type: node
+bundle: recensie
+label: 'Recensie beschrijving'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

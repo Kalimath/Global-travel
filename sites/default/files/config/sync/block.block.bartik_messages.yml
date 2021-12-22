@@ -1,0 +1,22 @@
+uuid: c81dd6d5-2798-4734-89a5-bead3e98c995
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: bartik_messages
+theme: bartik
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusberichten
+  provider: system
+  label_display: '0'
+visibility: {  }

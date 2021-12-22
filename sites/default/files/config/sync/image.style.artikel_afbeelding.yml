@@ -1,0 +1,15 @@
+uuid: 9cf83d75-48be-4c82-ac9e-4e37bdca57a3
+langcode: nl
+status: true
+dependencies: {  }
+name: artikel_afbeelding
+label: 'Artikel afbeelding'
+effects:
+  d56adb77-5612-44a0-967c-a3097a1f4220:
+    uuid: d56adb77-5612-44a0-967c-a3097a1f4220
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: 350
+      upscale: false

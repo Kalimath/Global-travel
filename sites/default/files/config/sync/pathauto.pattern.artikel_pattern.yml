@@ -1,0 +1,25 @@
+uuid: 85343e15-914c-45c6-9a20-924deabb22be
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: artikel_pattern
+label: 'Artikel pattern'
+type: 'canonical_entities:node'
+pattern: '[node:content-type:name]/[node:title]'
+selection_criteria:
+  ce015265-732d-4001-aafe-ddc859b772fc:
+    id: node_type
+    bundles:
+      recensie: recensie
+      article: article
+      page: page
+      vacature: vacature
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ce015265-732d-4001-aafe-ddc859b772fc
+selection_logic: and
+weight: -5
+relationships: {  }

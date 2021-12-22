@@ -1,0 +1,21 @@
+uuid: 3ab7ba5f-acfd-4e5e-8b70-d6854325bbb2
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geografische_regio
+    - node.type.article
+id: node.article.field_geografische_regio
+field_name: field_geografische_regio
+entity_type: node
+bundle: article
+label: 'Geografische regio'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 5134ce22-5601-41d0-9960-90fbd5d69245
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.vacature
+  module:
+    - text
+id: node.vacature.body
+field_name: body
+entity_type: node
+bundle: vacature
+label: 'Vacature beschrijving'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

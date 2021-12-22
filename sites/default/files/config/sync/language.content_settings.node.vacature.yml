@@ -1,0 +1,11 @@
+uuid: 3f12c967-876f-45b0-a04e-051079b850cc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.vacature
+id: node.vacature
+target_entity_type_id: node
+target_bundle: vacature
+default_langcode: site_default
+language_alterable: false

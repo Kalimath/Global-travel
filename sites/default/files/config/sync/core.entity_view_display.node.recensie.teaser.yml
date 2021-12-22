@@ -1,0 +1,39 @@
+uuid: e3b492b9-6e5b-4e76-82a5-ac8bdbd8697e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recensie.body
+    - field.field.node.recensie.field_geografische_regio
+    - field.field.node.recensie.field_image
+    - field.field.node.recensie.field_score
+    - field.field.node.recensie.field_titel
+    - node.type.recensie
+  module:
+    - text
+    - user
+id: node.recensie.teaser
+targetEntityType: node
+bundle: recensie
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_geografische_regio: true
+  field_image: true
+  field_score: true
+  field_titel: true
+  langcode: true
